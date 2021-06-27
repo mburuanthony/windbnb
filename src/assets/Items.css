@@ -1,0 +1,28 @@
+.Stays {
+  /* margin: 10px 0; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.stay {
+  width: 395px;
+  height: 395px;
+  margin: 100px 0;
+  padding: 10px;
+}
+
+.stay img {
+  width: 395px;
+  height: 395px;
+  border-radius: 12px;
+}
+
+.stay .details {
+  display: flex;
+  flex-direction: row;
+  align-items: centert;
+  justify-content: space-between;
+}

@@ -1,0 +1,190 @@
+#search-stays {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#search-stays form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+  padding: 0 5px;
+  height: 55px;
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin: 20px 0;
+}
+
+#search-stays form input {
+  border: 0;
+  padding: 10px 12px;
+  font-size: 16px;
+  width: 200px;
+  outline: none;
+}
+
+#search-stays form button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #bdbdbd;
+  height: 55px;
+  border-top: 0;
+  border-bottom: 0;
+  background: transparent;
+  cursor: pointer;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+}
+
+.preview {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+  display: none;
+  width: 100%;
+  height: 460px;
+  background: #ffffff;
+  animation: animate_prev 300ms;
+  animation-direction: alternate;
+  animation-fill-mode: both;
+}
+
+@keyframes animate_prev {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.preview form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  padding: 0;
+  width: 100%;
+  height: 55px;
+  /* background: #ffffff; */
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.preview form label {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 9px;
+  line-height: 11px;
+  text-transform: uppercase;
+  color: #333333;
+  margin: 0 5px;
+}
+
+.preview form #location {
+  width: 426px;
+  height: 55px;
+  border: 1px solid #333333;
+  border-radius: 16px;
+  padding: 0;
+}
+
+.preview form input {
+  border: 0;
+  font-size: 14px;
+  box-shadow: 0;
+  background: transparent;
+  outline: none;
+  color: #333333;
+  margin: 0 5px;
+  width: 100%;
+}
+
+.preview form button {
+  height: 48px;
+  width: 127px;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  background: #eb5757;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.preview form button i {
+  margin: 0 8px;
+}
+
+#location,
+#guest {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#guest {
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+  width: 200px;
+  padding: 0 5px;
+  height: 55px;
+  border-radius: 0;
+}
+
+.preview .locations {
+  margin: 60px 0;
+}
+
+.preview .locations p {
+  color: #4f4f4f;
+  font-size: 16px;
+}
+
+.preview .locations i {
+  margin-right: 10px;
+  margin-left: 0;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .preview .locations {
+    margin: 20px;
+  }
+
+  .preview form {
+    padding: 0;
+    height: 135px;
+  }
+
+  .preview form #location {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .preview form #guest {
+    border: 0;
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .preview form button {
+    position: absolute;
+    top: 400px;
+  }
+}
