@@ -1,4 +1,4 @@
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Windbnb</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://my-windbnb.herokuapp.com/">
       Solution
     </a>
     <span> | </span>
@@ -92,4 +92,4 @@ Your app is ready to be deployed!
 
 ## Contact
 
-- GitHub [mburuanthony](https://{github.com/mburuanthony)
+- GitHub [mburuanthony](https://github.com/mburuanthony)
