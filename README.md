@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://my-windbnb.herokuapp.com/">
       Solution
     </a>
     <span> | </span>
@@ -92,4 +92,4 @@ Your app is ready to be deployed!
 
 ## Contact
 
-- GitHub [mburuanthony](https://{github.com/mburuanthony)
+- GitHub [mburuanthony](https://github.com/mburuanthony)
