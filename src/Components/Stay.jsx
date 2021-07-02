@@ -40,7 +40,7 @@ function Stay({
           {type} . {beds} beds
         </p>
         <p style={{ color: "#4F4F4F", fontWeight: "500px" }}>
-          <i className="fas fa-star" style={{ color: "#EB5757" }}></i>a &nbsp;
+          <i className="fas fa-star" style={{ color: "#EB5757" }}></i> &nbsp;
           {rating}
         </p>
       </div>
