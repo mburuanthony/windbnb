@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://my-windbnb.herokuapp.com/">
+    <a href="https://antony-mburu-windbnb.netlify.app/">
       Solution
     </a>
     <span> | </span>
